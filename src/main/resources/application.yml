@@ -8,5 +8,7 @@ spring:
         git:
           uri: https://github.com/thomasdriscoll/config_server_values_public.git
           clone-on-start: true
-#  security:
-#    user:
+  security:
+    user:
+      name: ${CONFIG_USER_NAME}
+      password: ${CONFIG_PASSWORD}
